@@ -1,4 +1,4 @@
-<h1 align="center">👋 Hey, I'm Muhammed Arshad P K</h1>
+<h1 align="center">👋 Muhammed Arshad P K</h1>
 
 <h3 align="center">
 Machine Learning & Computer Vision Researcher 🤖🧠
@@ -18,45 +18,47 @@ Machine Learning & Computer Vision Researcher 🤖🧠
 
 ---
 
-## 🚀 About Me
+## Research Profile
 
-> *Curiosity-driven researcher exploring AI, Computer Vision, and Multi-Agent Systems.*
+I work at the intersection of **Machine Learning, Computer Vision, and Multi-Agent Systems**, with a focus on developing **robust, reproducible, and deployable AI solutions** for real-world applications.
 
-I am a **B.Sc. (Honours with Research) Computer Science student at Pondicherry University (CGPA: 8.99/10)** with hands-on research and industry experience in **Machine Learning, Computer Vision, Reinforcement Learning, and IoT systems**.
+My research spans **medical image analysis**, **clinical decision-support systems**, and **multi-agent reinforcement learning for autonomous systems**, combining **deep learning**, **probabilistic reasoning**, and **system-level engineering**. I am particularly interested in translating research ideas into **production-ready pipelines** through principled experimentation and rigorous evaluation.
 
-My work focuses on building **research-grade, reproducible AI systems**, spanning:
-- **Medical image analysis & clinical decision support**
-- **Multi-agent reinforcement learning for autonomous driving**
-- **Embedded IoT systems with real-world deployment**
+Current research interests include:
+- **Medical image segmentation and quantitative analysis**
+- **LLM-augmented decision-support systems (RAG, tool-augmented reasoning)**
+- **Collaborative multi-agent reinforcement learning**
+- **Edge-deployed AI and embedded intelligent systems**
 
 ---
 
-## 🧠 Research-Style Introduction
+## 🧠 Researcher Overview
 
 ```ts
 interface Researcher {
   name: string;
-  role: string;
+  focus: string;
   location: string;
-  domains: string[];
-  currentlyWorkingOn: string[];
+  expertise: string[];
+  activeResearch: string[];
 }
 
 const arshad: Researcher = {
   name: "Muhammed Arshad P K",
-  role: "Machine Learning & Computer Vision Researcher",
+  focus: "Machine Learning & Computer Vision Research",
   location: "Puducherry, India 🇮🇳",
-  domains: [
-    "Computer Vision",
+  expertise: [
     "Deep Learning",
+    "Computer Vision",
     "Multi-Agent Reinforcement Learning",
-    "IoT & Embedded Systems"
+    "LLM-Augmented Systems",
+    "IoT & Embedded AI"
   ],
-  currentlyWorkingOn: [
-    "Medical Image Segmentation (U-Net)",
-    "LLM-powered Clinical Decision Support (RAG)",
-    "Collaborative Multi-Agent RL"
+  activeResearch: [
+    "U-Net based medical image segmentation and quantitative wound assessment",
+    "Retrieval-augmented LLMs for clinical decision support",
+    "Collaborative MARL under centralized training and decentralized execution"
   ]
 };
 
-console.log("Turning research into real-world AI systems 🚀");
+console.log("Designing AI systems that move from research to real-world impact.");
