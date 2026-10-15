@@ -1,6 +1,6 @@
 <!-- ═══════════════════════════ HEADER ═══════════════════════════ -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=220&section=header&text=Muhammed%20Arshad%20P%20K&fontSize=46&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Computer%20Vision%20%26%20AI%20Engineer%20%E2%80%A2%20ML%20Researcher&descSize=18&descAlignY=58" width="100%"/>
+  <img src="assets/header.svg" alt="Muhammed Arshad P K — Computer Vision & AI Engineer" width="100%"/>
 </p>
 
 <p align="center">
@@ -254,5 +254,5 @@ timeline
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer" width="100%"/>
+  <img src="assets/footer.svg" alt="" width="100%"/>
 </p>
