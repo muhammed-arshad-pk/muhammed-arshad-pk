@@ -1,6 +1,6 @@
 <!-- ═══════════════════════════ HEADER ═══════════════════════════ -->
 <p align="center">
-  <img src="assets/header.svg" alt="Muhammed Arshad P K — Computer Vision & AI Engineer" width="100%"/>
+  <img src="assets/banner-top.svg" alt="Muhammed Arshad P K — Computer Vision & AI Engineer" width="100%"/>
 </p>
 
 <p align="center">
@@ -254,5 +254,5 @@ timeline
 </p>
 
 <p align="center">
-  <img src="assets/footer.svg" alt="" width="100%"/>
+  <img src="assets/banner-bottom.svg" alt="" width="100%"/>
 </p>
