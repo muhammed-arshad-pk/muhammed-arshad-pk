@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 110" width="1200" height="110" role="img" aria-label="Thanks for stopping by">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#090a13"/>
+      <stop offset="0.55" stop-color="#130f29"/>
+      <stop offset="1" stop-color="#0a1517"/>
+    </linearGradient>
+    <linearGradient id="wave" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7F5AF0" stop-opacity="0"/>
+      <stop offset="0.2" stop-color="#9b7dff"/>
+      <stop offset="0.8" stop-color="#2CB67D"/>
+      <stop offset="1" stop-color="#2CB67D" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+    .sig  { stroke-dasharray: 14 10; animation: flow 1.6s linear infinite; }
+    .rec  { animation: blink 1.4s steps(1) infinite; }
+    @keyframes flow  { to { stroke-dashoffset: -24; } }
+    @keyframes blink { 50% { opacity: .15; } }
+    @media (prefers-reduced-motion: reduce) { .sig, .rec { animation: none; } }
+  </style>
+  <rect x="0.5" y="0.5" width="1199" height="109" rx="20" fill="url(#bg)" stroke="#8b7cf6" stroke-opacity="0.28"/>
+  <path class="sig" d="M40 55H250l14-22 16 44 14-34 10 12H340" fill="none" stroke="url(#wave)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path class="sig" d="M860 55h16l10-12 14 34 16-44 14 22H1160" fill="none" stroke="url(#wave)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle class="rec" cx="366" cy="55" r="6" fill="#2CB67D"/>
+  <text class="mono" x="610" y="61" text-anchor="middle" font-size="17" fill="#aab3d4" letter-spacing="2.5">THANKS FOR STOPPING BY  ·  SAY HELLO</text>
+</svg>

@@ -1,6 +1,6 @@
 <!-- ═══════════════════════════ HEADER ═══════════════════════════ -->
 <p align="center">
-  <img src="assets/banner-top.svg" alt="Muhammed Arshad P K — Computer Vision & AI Engineer" width="100%"/>
+  <img src="assets/hero.svg" alt="Muhammed Arshad P K — Computer Vision & AI Engineer · ML Researcher" width="100%"/>
 </p>
 
 <p align="center">
@@ -16,11 +16,8 @@
   <img src="https://komarev.com/ghpvc/?username=muhammed-arshad-pk&style=for-the-badge&color=2CB67D&label=PROFILE+VIEWS"/>
 </p>
 
----
 
 ## 🧬 About Me
-
-<img align="right" width="380" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif"/>
 
 - 🦺 **Computer Vision & AI Engineer** at **Evolve Safety Consultive** — building real-time industrial safety systems (PPE compliance, unsafe behaviour, hazard detection) with **YOLOv8 / YOLO11**
 - 🎓 **B.Sc. (Hons. with Research) CS** @ **Pondicherry University** · CGPA **8.93 / 10**
@@ -31,61 +28,11 @@
 
 > *I like problems where a model has to survive contact with the real world — bad lighting, noisy sensors, messy hospitals, busy highways.*
 
-<br clear="right"/>
-
----
-
-## 🧠 `researcher.ts`
-
-```ts
-interface Researcher {
-  name: string;
-  role: string;
-  location: string;
-  expertise: string[];
-  currentlyShipping: string[];
-  funFact: string;
-}
-
-const arshad: Researcher = {
-  name: "Muhammed Arshad P K",
-  role: "Computer Vision & AI Engineer @ Evolve Safety Consultive",
-  location: "Puducherry, India 🇮🇳",
-  expertise: [
-    "Computer Vision",            // detection, segmentation, tracking
-    "Deep Learning",              // PyTorch · TensorFlow · Keras
-    "Multi-Agent RL",             // CTDE, Q-learning, GCN-GRU
-    "LLM-Augmented Systems",      // RAG · LangChain · tool use
-    "IoT & Embedded AI",          // ESP32 · Raspberry Pi · Arduino
-  ],
-  currentlyShipping: [
-    "Real-time PPE & hazard detection on live site cameras",
-    "Custom YOLO11 models fine-tuned on workplace datasets",
-  ],
-  funFact: "Calibrated a flow sensor with a 1-litre jug to ±1–2% accuracy 🫗",
-};
-
-console.log("Designing AI systems that move from research to real-world impact.");
-```
-
----
-
 ## 📊 Impact in Numbers
 
-<div align="center">
-
-| 🎯 | Metric | Where |
-|:--:|:--|:--|
-| 🩺 | **98–99%** segmentation accuracy · **97%+** wound-area accuracy | Wound Analysis (3,000+ clinical images) |
-| 🚗 | **120.41** cumulative reward · up to **2.4×** better than DQN / D3QN / QCOMBO | MQLC Multi-Agent RL |
-| 📚 | RAG over **16** textbooks & research papers | NPWT Decision Support |
-| 🛣️ | **6.4M** samples · 3s history → **5s** future trajectory | Driver Intention Prediction |
-| 💧 | **±1–2%** accuracy over 1–30 L/min · **24×7** uptime | Smart Flow Monitoring |
-| ⚡ | Up to **40%** less power wastage | Smart Campus Automation 🥇 |
-
-</div>
-
----
+<p align="center">
+  <img src="assets/impact.svg" width="100%" alt="98–99% wound segmentation accuracy on 3,000+ clinical images · up to 2.4× the reward of DQN / D3QN / QCOMBO in multi-agent RL · RAG over 16 textbooks and papers · 6.4M trajectory samples · ±1–2% flow accuracy with 24×7 uptime · up to 40% less power wastage"/>
+</p>
 
 ## 🚀 Featured Projects
 
@@ -93,7 +40,7 @@ console.log("Designing AI systems that move from research to real-world impact."
 <tr>
 <td width="50%" valign="top">
 
-### 🩺 AI Wound Analysis & NPWT Decision Support
+### 🩺 [AI Wound Analysis & NPWT Decision Support](https://github.com/muhammed-arshad-pk/AI-Powered-Wound-Assessment-NPWT-Decision-Support-System)
 **U-Net · K-means · LangChain · Gemini · FastAPI · Gradio**
 
 End-to-end pipeline that segments chronic wounds, classifies tissue (granulation, slough, necrotic, epithelial) and estimates wound area — then feeds it to an **LLM with RAG over 16 clinical sources** to suggest NPWT plans. Deployed into a mobile clinical app.
@@ -103,7 +50,7 @@ End-to-end pipeline that segments chronic wounds, classifies tissue (granulation
 </td>
 <td width="50%" valign="top">
 
-### 🚗 MQLC — Multi-Agent RL for Lane Changes
+### 🚗 [MQLC — Multi-Agent RL for Lane Changes](https://github.com/muhammed-arshad-pk/MQLC-Traffic-MARL)
 **PyTorch · highway-env · GCN-GRU · CTDE**
 
 Collaborative MARL framework where **5 agents** negotiate lane changes among **30 vehicles**. Global–local dual Q-network with GCN-GRU intent prediction and urgency-aware arbitration.
@@ -115,7 +62,7 @@ Collaborative MARL framework where **5 agents** negotiate lane changes among **3
 <tr>
 <td width="50%" valign="top">
 
-### 🛣️ Driver Intention & Trajectory Prediction
+### 🛣️ [Driver Intention & Trajectory Prediction](https://github.com/muhammed-arshad-pk/Maneuver-Aware-Trajectory-Prediction-for-Autonomous-Vehicles-IoV-)
 **LSTM Encoder–Decoder · NGSIM**
 
 Maneuver-aware pooling with **polar-coordinate interaction modeling** (orientation, radial velocity) to predict lane changes and merges — outperforming Euclidean pooling.
@@ -125,7 +72,7 @@ Maneuver-aware pooling with **polar-coordinate interaction modeling** (orientati
 </td>
 <td width="50%" valign="top">
 
-### 💧 Smart Flow Monitoring (IoT)
+### 💧 [Smart Flow Monitoring (IoT)](https://github.com/muhammed-arshad-pk/ESP32-Dual-Flow-Monitoring-System-with-IoT-TFT-Display)
 **ESP32 · YF-S201 · TFT · Cloud Dashboard**
 
 Real-time flow monitor streaming calibrated data to the cloud, verified through continuous 24×7 field deployment and power-stabilized hardware.
@@ -136,7 +83,6 @@ Real-time flow monitor streaming calibrated data to the cloud, verified through 
 </tr>
 </table>
 
----
 
 ## 🛤️ Journey
 
@@ -184,7 +130,6 @@ timeline
 
 </details>
 
----
 
 ## 📄 Publication
 
@@ -196,7 +141,6 @@ timeline
 - 🥇 **1st Prize, Project Competition** — IE(I) 4th Regional Conclave @ PTU (Mar 2025) · *IoT-Based Smart Campus Block Automation* (Node-RED, MQTT, NoSQL, Grafana) — cut power wastage by up to 40%
 - 🥈 **2nd Prize, Model/Idea Competition** — IE(I) 4th Regional Conclave @ PTU (Mar 2025) · *IoT-Based Smart Irrigation System* with local processing and minimal internet dependency
 
----
 
 ## 🛠️ Tech Arsenal
 
@@ -222,21 +166,20 @@ timeline
   <img src="https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white"/>
 </p>
 
----
 
 ## 📈 GitHub Stats
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=muhammed-arshad-pk&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true"/>
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=muhammed-arshad-pk&layout=compact&theme=tokyonight&hide_border=true&langs_count=8"/>
+  <img width="100%" alt="Profile details and contribution graph" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=muhammed-arshad-pk&theme=tokyonight"/>
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=muhammed-arshad-pk&theme=tokyonight&hide_border=true"/>
+  <img height="180" alt="GitHub stats" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=muhammed-arshad-pk&theme=tokyonight"/>
+  <img height="180" alt="Repos per language" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=muhammed-arshad-pk&theme=tokyonight"/>
 </p>
 
 <p align="center">
-  <img width="100%" alt="contribution chart" src="https://ghchart.rshah.org/7F5AF0/muhammed-arshad-pk"/>
+  <img alt="Contribution streak" src="https://streak-stats.demolab.com?user=muhammed-arshad-pk&theme=tokyonight&hide_border=true"/>
 </p>
 
 <!-- Generated by .github/workflows/snake.yml into the "output" branch -->
@@ -247,12 +190,11 @@ timeline
   </picture>
 </p>
 
----
-
 <p align="center">
   <i>💬 Open to research collaborations in computer vision, medical AI, and multi-agent systems — let's build something that works outside the lab.</i>
 </p>
 
+
 <p align="center">
-  <img src="assets/banner-bottom.svg" alt="" width="100%"/>
+  <a href="mailto:arshadmhd004@gmail.com"><img src="assets/footer.svg" alt="Thanks for stopping by — say hello" width="100%"/></a>
 </p>
